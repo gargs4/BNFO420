@@ -13,6 +13,8 @@ sirs.R: R File of Extended SIRS Model to include vaccination at the rate seen in
 
 higherVac.R: R File extension of sirs.R to include higher vaccination rate.
 
+cumulative.R: R File that uses sirs.R to create a plot of cumulative case counts. This was our "fitted" plot to the cumulative cases plot in capstone1.R
+
 Citations:
 Soetaert K, Petzoldt T, Setzer RW (2010). “Solving Differential Equations in R: Package deSolve.” Journal of Statistical Software, 33(9), 1–25. doi: 10.18637/jss.v033.i09
 Wickham H (2007). “Reshaping Data with the reshape Package.” Journal of Statistical Software, 21(12), 1–20. http://www.jstatsoft.org/v21/i12/.
