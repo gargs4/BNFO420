@@ -11,6 +11,8 @@ sirsOnly.R: R File that contains first extension to SIR model. Has reinfection p
 
 sirs.R: R File of Extended SIRS Model to include vaccination at the rate seen in real life in Delhi. Extended from sirsOnly.R to include vaccine and reinfection. Uses ggplot2 to plot Model. Has limiting y-axis statements to see initial parts of the model clearly, and also has a plot with a log scale for better viewing.
 
+withoutVac.R: R File of Extended SIRS Model without vaccine parameters, but including if statements to change implied Rt at different times.
+
 higherVac.R: R File extension of sirs.R to include higher vaccination rate.
 
 cumulative.R: R File that uses sirs.R to create a plot of cumulative case counts. This was our "fitted" plot to the cumulative cases plot in capstone1.R
